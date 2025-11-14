@@ -1,0 +1,7 @@
+Technical Requirements & Constraints
+1. Programming Language: Python 3.8+
+2. Core Framework: You must use the LangChain framework to orchestrate the RAG pipeline.
+3. Vector Database: use ChromaDB as your vector store. It is open-source, free, and can run entirely locally.
+4. Embeddings: : HuggingFaceEmbeddings with sentence-transformers/all-MiniLM-L6-v2 - NO API keys, NO
+accounts, NO costs.
+5. LLM: Ollama with Mistral 7B - 100% free - no accounts, no API keys, no limits
